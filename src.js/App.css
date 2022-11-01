@@ -1,0 +1,121 @@
+.main-task-background {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.5s;
+  background: rgb(2,0,36);
+background: linear-gradient(73deg, rgba(2,0,36,1) 0%, rgba(123,255,255,1) 0%, rgba(140,8,135,1) 56%, rgba(0,212,255,1) 100%);
+  
+}
+
+.main-task-container {
+
+  /* From https://css.glass */
+ 
+  /* From https://css.glass */
+
+  
+
+    /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.1px);
+  -webkit-backdrop-filter: blur(11.1px);
+  border: 1px solid rgba(255, 255, 255, 0.02);
+
+  padding: 30px 20px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 40px 0px;
+  max-width: 620px;
+  z-index: 100;
+}
+
+.main-task-container>div:not(:first-child):not(:last-child) {
+  
+  background: rgba(212, 212, 212, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  margin-top: 15px;
+}  
+
+.task-container {
+  /* From https://css.glass */
+  background: rgba(47, 0, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  opacity: 1;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.task-container>span:first-child {
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+.task-container>span:nth-child(2) {
+  font-weight: bold;
+  font-size: 24px;
+}
+.task-container>span:nth-child(3){
+  font-weight: bold;
+}
+.main-task-container>div:last-child{
+  padding-top:10px;
+  padding-bottom:10px;
+
+
+
+}
+.timer-label {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 100px;
+  padding: 30px 0px;
+}
+
+.end-timer-container {
+  display: flex;
+  padding-left: 10px;
+
+  font-size: 15px;
+}
+
+.end-timer-container>button {
+  background-color: rgb(76, 0, 255);
+  padding: 5px 5px 5px 5px;
+  font-weight: bold;
+}
+
+.end-timer-container>button:hover {
+  background-color: #9e00003f;
+  color: rgb(255, 255, 255)
+}
+
+.end-timer-container>span:last-child {
+  margin-left: auto;
+  margin-top:auto;
+  color: white;
+
+  font-size: 20px;
+}
+
+.end-timer-container>span>span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.some-custom-classname{
+  background-color:black;
+  
+
+
+
+}
